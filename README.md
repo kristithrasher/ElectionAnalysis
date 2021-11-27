@@ -37,7 +37,18 @@ The challenge required some additonal data to complete the audit. This data was:
    - The percentage of votes from each county out of the total count
    - The county with the largest turnout
 
-Achieved this by running a python file in the command line, and performed necessary calculations to achieve desired results.          Created and added keys and values to a dictionary, used decision sttements to help check condition. Applied memembership and            logical operators to decision statements. Used repetition statements to iterate through the list and dictionary. We created an output file to print our results.
+The dataset election_results.csv contained data consisting of Ballot Id, County name and Candidate name. 
+We calculated County and Candidate information such as total votes for each and also percentage of votes for each. We used a for look to iterate through each row of data and created and defined two dictionaries for County and Candidate. To iterate through each row in the data set we created a for loop here is an example of our code in doing this
+
+for row in file_reader:
+        # Add to the total vote count
+        total_votes = total_votes + 1
+        # Get the candidate name from each row.
+        candidate_name = row[2]
+        # 3: Extract the county name from each row.
+        county_name = row[1]
+
+Achieved this by running a python file in the command line, and performed necessary calculations to achieve desired results.          Created and added keys and values to a dictionary, used decision sttements to help check condition. Applied memembership and logical operators to decision statements. Used repetition statements to iterate through the list and dictionary. We created an output file to print our results.
 
 ## Challenge Summary
 The voter turnout for each County. 
