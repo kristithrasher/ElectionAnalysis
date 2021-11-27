@@ -16,18 +16,28 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 ## Summary 
 The analysis of the election show that:  
 - There were 369,711 votes cast in the election.
+
 - The candidates were:
     - Charles Casper Stockham
     - Diana DeGette
     - Raymon Anthony Doane
--The candidate results were:
+
+- The candidate results were: 
+
     - Charles Casper Stockham had 23% of the votes and 85,213 number of votes.
-    - Dana DeGette had 73.8% of the votes and 272,892 number of votes.
+    - Diana DeGette had 73.8% of the votes and 272,892 number of votes.
     - Raymon Anthony Doane received 3.1% of the votes and 11,606 number of votes.
--The winner of the election was: 
+
+- The winner of the election was: 
     - Dana DeGette who received 73.8% of the vote and 272,892 number of votes.
 
 ## Challenge Overview
+The challenge required some additonal data to complete the audit. This data was:
+   - The voter turnout for each county
+   - The percentage of votes from each county out of the total count
+   - The county with the largest turnout
+
+Achieved this by running a python file in the command line, and performed necessary calculations to achieve desired results.          Created and added keys and values to a dictionary, used decision sttements to help check condition. Applied memembership and            logical operators to decision statements. Used repetition statements to iterate through the list and dictionary. We created an output file to print our results.
 
 ## Challenge Summary
 The voter turnout for each County. 
@@ -40,4 +50,4 @@ The percentage of votes from each county.
     Denver had 82.8%
     Arapahoe had 6.7%
 
-- The county with the highest turnout is Denver at 82.8% and total of 306,055 votes.
+- The county with the highest turnout is Denver at 82.8% and total of 306,055 votes.![Screenshot (37)](https://user-images.githubusercontent.com/94208810/143662723-c9106ac9-476f-4f12-8fed-81ca0d6a6510.png)
