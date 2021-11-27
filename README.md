@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Project Overview
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election. 
+Tom a Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.  Tom's manager wants to know if we can automate it and use python instead of Exel. Our job is to generate a vote count report to certify this us congressional race. 
 
 1.  Calculate the total number of votes cast.
 2.  Get a couplete list of candidates who received votes.
